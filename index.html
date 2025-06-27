@@ -29,19 +29,22 @@
       </header>
 
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter your Recipes name, Ingredients... "
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" value="Generate" class="submit-btn" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter your Recipes name, Ingredients... "
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" value="Generate" class="submit-btn" />
+          </form>
+          <div class="hint">i.e: Pie, Chocolate Cake or Chicken Wrap</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
 
       <footer>
