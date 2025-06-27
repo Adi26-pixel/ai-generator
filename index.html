@@ -13,6 +13,7 @@
       src="https://kit.fontawesome.com/d139762293.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Recipe Generator</title>
   </head>
@@ -27,7 +28,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter your Recipes name, Ingredients... "
@@ -38,10 +39,7 @@
           />
           <input type="submit" value="Generate" class="submit-btn" />
         </form>
-        <div class="recipe">
-          The recipe <br />
-          going here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
