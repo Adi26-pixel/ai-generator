@@ -4,7 +4,7 @@ function generateRecipe(event) {
   new Typewriter("#recipe", {
     strings: "Recipe is here",
     autoStart: true,
-    delay: 1,
+    delay: 20,
     cursor: "",
   });
 }
