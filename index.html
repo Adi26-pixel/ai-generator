@@ -9,26 +9,34 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/d139762293.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Recipe Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Recipe Generator</h1>
+        <div class="icon">
+          <i class="fa-solid fa-kitchen-set"></i>
+        </div>
+
+        <h1>Delicious AI Recipe Generator</h1>
       </header>
 
       <main>
         <form>
           <input
             type="text"
-            placeholder="Enter your ideal recipe"
+            placeholder="Enter your Recipes name, Ingredients... "
             autofocus
             required
             autocomplete="off"
             class="instructions"
           />
-          <input type="submit" value="Submit" class="submit-btn" />
+          <input type="submit" value="Generate" class="submit-btn" />
         </form>
         <div class="recipe">
           The recipe <br />
